@@ -1,13 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 :root{
     --cor-principal: #8084F5;
     --cor-secundária: #C9F064;
     --cor-texto: #EBB500;
     --cor-de-fundo: #EB67BE;
-    --font: "Nuito Sans" , sans-serif;
+    --font: "Gowun Batang" , sans-serif;
 }
 body{
     blackgroud-color: var(--car-principal);
     color: var(--cor-texto);
     font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+.cabeçalho{
+    background-color: var(--cor-secundária)
+    text-align: center;
 }
