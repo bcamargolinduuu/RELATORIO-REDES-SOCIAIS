@@ -17,3 +17,27 @@ body{
     background-color: var(--cor-secundária)
     text-align: center;
 }
+.cabecalho_titulo{
+    font-size: 2rem;
+    color: var(--cor-texto);
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
