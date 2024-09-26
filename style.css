@@ -7,7 +7,7 @@
     --font: "Gowun Batang" , sans-serif;
 }
 body{
-    blackgroud-color: var(--car-principal);
+    background-color: var(--car-principal);
     color: var(--cor-texto);
     font-family: var(--font);
     height: 100vh;
