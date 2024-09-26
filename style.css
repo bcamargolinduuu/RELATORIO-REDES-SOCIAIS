@@ -14,7 +14,7 @@ body{
     margin: 0;
 }
 .cabeçalho{
-    background-color: var(--cor-secundária)
+    background-color: var(--cor-secundária);
     text-align: center;
 }
 .cabecalho_titulo{
